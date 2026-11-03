@@ -1,0 +1,117 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="ACdlykWsYCJm9J5ECefY">
+    <mxGraphModel dx="998" dy="481" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YxHoxKhiK68SG7mzlktR-1" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" value="Inicio" vertex="1">
+          <mxGeometry height="100" width="100" x="400" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YxHoxKhiK68SG7mzlktR-2" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" value="Fin" vertex="1">
+          <mxGeometry height="100" width="100" x="385" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="YxHoxKhiK68SG7mzlktR-7" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="nota &amp;gt;= 70" vertex="1">
+          <mxGeometry height="80" width="100" x="395" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="YxHoxKhiK68SG7mzlktR-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="mnsj = &quot;El estudiante + nombre_estudiante + &quot;aprobó el curso &quot; + nombre_curso + &quot; con una nota de &quot; + nota" vertex="1">
+          <mxGeometry height="60" width="230" x="520" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="YxHoxKhiK68SG7mzlktR-12" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="nota &amp;gt;= 60" vertex="1">
+          <mxGeometry height="100" width="100" x="240" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="YxHoxKhiK68SG7mzlktR-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="mnsj = &quot;El estudiante + nombre_estudiante + &quot;de hacer examen de ampliación&amp;nbsp; del curso&quot; + nombre_curso + &quot;porque obtuvo una nota de &quot; + nota" vertex="1">
+          <mxGeometry height="60" width="230" x="325" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="YxHoxKhiK68SG7mzlktR-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="mnsj = &quot;El estudiante + nombre_estudiante + &quot;reprobó el curso &quot; + nombre_curso + &quot; con una nota de &quot; + nota" vertex="1">
+          <mxGeometry height="60" width="230" x="10" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="YxHoxKhiK68SG7mzlktR-16" edge="1" parent="1" source="YxHoxKhiK68SG7mzlktR-12" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="YxHoxKhiK68SG7mzlktR-13" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="380" />
+            </Array>
+            <mxPoint x="400" y="420" as="sourcePoint" />
+            <mxPoint x="450" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YxHoxKhiK68SG7mzlktR-17" edge="1" parent="1" source="YxHoxKhiK68SG7mzlktR-12" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="YxHoxKhiK68SG7mzlktR-14" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="125" y="380" />
+            </Array>
+            <mxPoint x="400" y="420" as="sourcePoint" />
+            <mxPoint x="450" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YxHoxKhiK68SG7mzlktR-18" edge="1" parent="1" source="YxHoxKhiK68SG7mzlktR-14" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.552;entryY=0.983;entryDx=0;entryDy=0;entryPerimeter=0;" target="YxHoxKhiK68SG7mzlktR-13" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="125" y="540" />
+              <mxPoint x="451.96" y="540" />
+            </Array>
+            <mxPoint x="400" y="420" as="sourcePoint" />
+            <mxPoint x="450" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YxHoxKhiK68SG7mzlktR-19" edge="1" parent="1" source="YxHoxKhiK68SG7mzlktR-11" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="YxHoxKhiK68SG7mzlktR-7" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="635" y="300" />
+            </Array>
+            <mxPoint x="400" y="420" as="sourcePoint" />
+            <mxPoint x="450" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YxHoxKhiK68SG7mzlktR-20" edge="1" parent="1" source="YxHoxKhiK68SG7mzlktR-12" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" target="YxHoxKhiK68SG7mzlktR-7" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="300" />
+            </Array>
+            <mxPoint x="400" y="420" as="sourcePoint" />
+            <mxPoint x="450" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YxHoxKhiK68SG7mzlktR-21" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=0.548;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;" target="YxHoxKhiK68SG7mzlktR-11" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="600" />
+              <mxPoint x="646.04" y="600" />
+            </Array>
+            <mxPoint x="280" y="540" as="sourcePoint" />
+            <mxPoint x="450" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YxHoxKhiK68SG7mzlktR-22" edge="1" parent="1" source="YxHoxKhiK68SG7mzlktR-7" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=0.43;entryY=0.98;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="YxHoxKhiK68SG7mzlktR-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="380" as="sourcePoint" />
+            <mxPoint x="450" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YxHoxKhiK68SG7mzlktR-4" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" value="Leer nombre_estudiante,&lt;div&gt;nombre_curso,&lt;/div&gt;&lt;div&gt;nota&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="270" x="310" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="YxHoxKhiK68SG7mzlktR-23" edge="1" parent="1" source="YxHoxKhiK68SG7mzlktR-2" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="530" as="sourcePoint" />
+            <mxPoint x="440" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YxHoxKhiK68SG7mzlktR-6" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" value="Imprimir mnsj" vertex="1">
+          <mxGeometry height="60" width="130" x="375" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="YxHoxKhiK68SG7mzlktR-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="No" vertex="1">
+          <mxGeometry height="30" width="60" x="335" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="YxHoxKhiK68SG7mzlktR-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="No" vertex="1">
+          <mxGeometry height="30" width="60" x="160" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="YxHoxKhiK68SG7mzlktR-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Sí" vertex="1">
+          <mxGeometry height="30" width="60" x="350" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="YxHoxKhiK68SG7mzlktR-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Sí" vertex="1">
+          <mxGeometry height="30" width="60" x="505" y="270" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
