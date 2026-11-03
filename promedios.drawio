@@ -1,0 +1,31 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="MDOeVTXA1bv-vQFaK-Qa">
+    <mxGraphModel dx="959" dy="577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fR9_2av4wN9LlpVXHTRk-1" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" value="Inicio" vertex="1">
+          <mxGeometry height="100" width="100" x="360" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fR9_2av4wN9LlpVXHTRk-5" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" value="Fin" vertex="1">
+          <mxGeometry height="100" width="100" x="360" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="fR9_2av4wN9LlpVXHTRk-6" edge="1" parent="1" source="fR9_2av4wN9LlpVXHTRk-5" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="fR9_2av4wN9LlpVXHTRk-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="300" as="sourcePoint" />
+            <mxPoint x="450" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fR9_2av4wN9LlpVXHTRk-2" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" value="Leer nombre_estudiante,&lt;div&gt;nombre_curso,&lt;/div&gt;&lt;div&gt;nota&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="270" x="280" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="fR9_2av4wN9LlpVXHTRk-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="mnsj = &quot;El &quot; + nombre_estudiante + &quot; está matriculado en el curso &quot; +&lt;div&gt;nombre_curso&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="410" x="220" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="fR9_2av4wN9LlpVXHTRk-4" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" value="Imprimir mnsj" vertex="1">
+          <mxGeometry height="60" width="100" x="365" y="370" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
